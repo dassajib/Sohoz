@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <ul style="background-color: #089d49" class="d-none nav sticky-top d-sm-flex justify-content-end text-light">
+    <li class="navbar-brand hand-pointer" href=" #">Deals and Offers</li>
+    <li class="navbar-brand hand-pointer" href="#">Insurance Claim</li>
+    <li class="navbar-brand hand-pointer" href="#">Cahncel Ticket</li>
+    <li class="navbar-brand hand-pointer" href="#">Bus Reservation</li>
+    <li class="navbar-brand hand-pointer" href="#">Contact us</li>
+    <li class="navbar-brand hand-pointer" href="#">
+      <img src="https://img.icons8.com/small/16/000000/phone.png" />
+      16374
+    </li>
+  </ul>
+
+  <nav class="navbar navbar-expand-lg main-navbar navbar-light">
+    <div class="container">
+      <img class="main-logo" src="./resources/main-logo.svg" alt="" />
+      <button class="navbar-toggler color-primary" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="categories category-1 nav-link active" aria-current="page" href="#">Bus</a>
+          <a class="categories nav-link" href="#">Launch</a>
+          <a class="categories nav-link d-md-none" href="#">Deals and Offers</a>
+          <a class="categories nav-link d-md-none" href="#">Insurance Claim</a>
+          <a class="categories nav-link d-md-none" href="#">Cahncel Ticket</a>
+          <a class="categories nav-link d-md-none" href="#">Bus Reservation</a>
+          <a class="categories nav-link d-md-none" href="#">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="ad-search-container">
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="./resources/picture-1.png" alt="">
+        </div>
+        <div class="item">
+          <img src="./resources/picture-2.png" alt="">
+        </div>
+        <div class="item">
+          <img src="./resources/picture-3.png" alt="">
+        </div>
+      </div>
+
+      <br />
+
+      <div class="d-flex departure-return-container">
+        <div class="d-flex flex-lg-row flex-column schedule-container side-border">
+          <div class="information-container">
+            <b>Departure</b>
+            <div class="d-flex flex-row">
+              <div>
+                <img src="./resources/journey.svg" alt="" />
+              </div>
+
+              <div>
+                <h5>Dhaka-Khulna</h5>
+                <p>15 March, 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex gap-2 days flex-row justify-content-end align-items-end">
+            <div class="day white-background font-green hand-pointer p-2">
+              <span>Prev.Day</span>
+            </div>
+            <div class="day white-background font-green hand-pointer p-2">
+              <span>Next.Day</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-row schedule-container">
+          <div class="information-container">
+            <b>Return</b>
+            <div class="d-flex flex-row">
+              <div>
+                <img src="./resources/journey.svg" alt="" />
+              </div>
+
+              <div>
+                <h5>Khulna-Dhaka</h5>
+                <p>24 March, 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-row days justify-content-end align-items-end">
+            <div class="search green-background font-white hand-pointer">
+              Modify Search
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container search-buses-container mt-3">
+    <div class="row">
+      <div class="filters col-md-4 col-sm-12 white-background">
+        <div>Refine Seach</div>
+        <details>
+          <summary class="d-flex justify-content-between">
+            Operator
+            <div class="summary-chevron-up">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-down">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </summary>
+
+          <div>
+            <form action="/action_page.php">
+              <input type="checkbox" id="vehicle1" name="shohag paribahan" value="shohag" />
+              <label for="vehicle1">Sohag Paribahan</label><br />
+              <input type="checkbox" id="vehicle2" name="hanif enterprise" value="hanif" />
+              <label for="vehicle2">Hanif Enterprise</label><br />
+              <input type="checkbox" id="vehicle3" name="tungipara express" value="tungipara" />
+              <label for="vehicle3">Tungipara Express</label><br />
+              <input type="checkbox" id="vehicle3" name="kanak paribahan" value="kanak" />
+              <label for="vehicle3">Kanak Paribahan Ltd.</label><br />
+              <input type="checkbox" id="vehicle3" name="emad paribahan" value="emad" />
+              <label for="vehicle3">Emad Paribahan (Pvt) Limited.</label><br />
+              <input type="checkbox" id="vehicle3" name="royal paribahan" value="royal" />
+              <label for="vehicle3">Royal Paribahan</label><br />
+            </form>
+          </div>
+        </details>
+
+        <details>
+          <summary class="d-flex justify-content-between">
+            Bus Type
+            <div class="summary-chevron-up">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-down">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </summary>
+          <div>
+            <form action="/action_page.php">
+              <input type="checkbox" id="ac" name="ac" value="ac" />
+              <label for="ac">AC</label><br />
+              <input type="checkbox" id="nonac" name="non-ac" value="non-ac" />
+              <label for="nonac">Non AC</label><br />
+            </form>
+          </div>
+        </details>
+
+        <details>
+          <summary class="d-flex justify-content-between">
+            Boarding Point
+            <div class="summary-chevron-up">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-down">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </summary>
+          <form action="/action_page.php">
+            <input type="checkbox" id="1" name="royal" value="royal" />
+            <label for="1">Royal More Bus Point</label><br />
+            <input type="checkbox" id="2" name="non-ac" value="notun bazar" />
+            <label for="2">Notun Rasta Bus Point</label><br />
+            <input type="checkbox" id="3" name="ac" value="shona danga" />
+            <label for="3">Shona Danga Bus Point</label><br />
+            <input type="checkbox" id="4" name="non-ac" value="non-acboro
+              bazar
+              <input
+                type=" checkbox" id="5" name="ac" value="khulna zero point" />
+            <label for="5">Khulna Zero Point_TE</label><br />
+            <input type="checkbox" id="6" name="non-ac" value="katakhali" />
+            <label for="6">Katakhali Bus Point</label><br />
+            <input type="checkbox" id="7" name="non-ac" value="fakirhat" />
+            <label for="7">Fakirhat</label><br />
+            <input type="checkbox" id="8" name="non-ac" value="phulbari" />
+            <label for="8">Phulbari Bus Gate Point</label><br />
+            <input type="checkbox" id="9" name="non-ac" value="boyrabazar" />
+            <label for="9">Boyrabazar Bus Gate Point</label><br />
+            <input type="checkbox" id="10" name="non-ac" value="doulatpur" />
+            <label for="10">Doulatpur Bus Point</label><br />
+          </form>
+        </details>
+
+        <details>
+          <summary class="d-flex justify-content-between">
+            Dropping Points
+            <div class="summary-chevron-up">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-down">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </summary>
+          <div>
+            <input type="checkbox" id="1" name="non-ac" value="sayedabad" />
+            <label for="1">Sayedabad Bus Point</label><br />
+            <input type="checkbox" id="2" name="non-ac" value="gulistan" />
+            <label for="2">Gulistan Bus Point</label><br />
+            <input type="checkbox" id="3" name="non-ac" value="gabtoli" />
+            <label for="3">Gabtoli Bus Point</label><br />
+            <input type="checkbox" id="4" name="non-ac" value="kallyanpur" />
+            <label for="4">Kallyanpur Bus Point</label><br />
+            <input type="checkbox" id="5" name="non-ac" value="abdullahpur" />
+            <label for="5">Abdullahpur Bus Point</label><br />
+          </div>
+        </details>
+
+        <details>
+          <summary class="d-flex justify-content-between">
+            Departure Time
+            <div class="summary-chevron-up">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-down">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </summary>
+          <div>
+            <input type="checkbox" id="1" name="time1" value="before 6" />
+            <label for="1">Before 6.00 AM</label><br />
+            <input type="checkbox" id="2" name="time2" value="6-12" />
+            <label for="2">6.00 AM - 12.00 PM</label><br />
+            <input type="checkbox" id="3" name="time3" value="12-6" />
+            <label for="3">12.00 PM - 6.00 PM</label><br />
+            <input type="checkbox" id="4" name="time4" value="After 6" />
+            <label for="4">After 6.00 PM</label><br />
+          </div>
+        </details>
+
+        <details>
+          <summary class="d-flex justify-content-between">
+            Arrival Time
+            <div class="summary-chevron-up">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-down">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </summary>
+          <div>
+            <div>
+              <input type="checkbox" id="1" name="time1" value="before 6" />
+              <label for="1">Before 6.00 AM</label><br />
+              <input type="checkbox" id="2" name="time2" value="6-12" />
+              <label for="2">6.00 AM - 12.00 PM</label><br />
+              <input type="checkbox" id="3" name="time3" value="12-6" />
+              <label for="3">12.00 PM - 6.00 PM</label><br />
+              <input type="checkbox" id="4" name="time4" value="After 6" />
+              <label for="4">After 6.00 PM</label><br />
+            </div>
+          </div>
+        </details>
+      </div>
+
+      <div class="Buses col-md-8 col-sm-12">
+        <div class="row">
+          <details class="col-3">
+            <summary class="d-flex justify-content-between">
+              Operator(Bus Type)
+              <div class="summary-chevron-up">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-chevron-down">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </summary>
+          </details>
+
+          <details class="col-2">
+            <summary class="d-flex justify-content-between">
+              Dep. Time
+              <div class="summary-chevron-up">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-chevron-down">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </summary>
+          </details>
+
+          <details class="col-2">
+            <summary class="d-flex justify-content-between">
+              Arr. Time
+              <div class="summary-chevron-up">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-chevron-down">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </summary>
+          </details>
+
+          <details class="col-2">
+            <summary class="d-flex justify-content-between">
+              Seats Available
+              <div class="summary-chevron-up">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-chevron-down">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </summary>
+          </details>
+
+          <details class="col-3">
+            <summary class="d-flex justify-content-between">
+              Fare
+              <div class="summary-chevron-up">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-chevron-down">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+            </summary>
+          </details>
+        </div>
+
+        <div class="bus-card">
+          <div class="row">
+            <h5 class="col-3 font-green">Tungipara Express</h5>
+            <div class="col-2">04.45 AM</div>
+            <div class="col-2">11:45 AM</div>
+            <div class="col-2">45</div>
+            <div class="col-3 text-end">
+              <h5 class="font-green">৳600</h5>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-3"><small> 1, BMW, Non AC</small></div>
+          </div>
+
+          <div class="row">
+            <div class="col-5">
+              <small><b>Route:</b>Khulna-Gopalganj-Dhaka</small>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5">
+              <small><b>Starting Point:</b>Khulna(phultala)</small>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5">
+              <small><b>Ending Point:</b>Dhaka</small>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 d-flex justify-content-end">
+              <div onclick="myFunction('seat-maps')"
+                class="view-seats green-background font-white d-flex justify-content-center align-items-center hand-pointer">
+                View Seats
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-3 font-green">
+              <small>Cancellation Policy</small>
+            </div>
+            <div class="col-2 font-green"><small>Boarding Point</small></div>
+            <div class="col-2 font-green"><small>Dropping Point</small></div>
+            <div class="col-2 font-green"><small>Facilities</small></div>
+          </div>
+
+          <div id="seat-maps">
+            <br>
+            <h6 class="font-green">Choose your seat(s)</h6>
+            <hr>
+            <div class="row">
+              <div class="col-xl-5 col-lg-12 d-flex justify-content-center">
+                <div>
+                  <small>Hold the cursor on seats for seat numbers, click to select or deselect</small><br />
+                  <div class="bus-layout">
+                    <div class="d-flex justify-content-end align-items-center steering">
+                      <img title="driver" src="https://img.icons8.com/material-rounded/24/000000/steering-wheel.png"
+                        id="bus-input" />
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <img title="[EC1]" src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                        class="hand-pointer" id="bus-input" />
+                      <img title="[EC2]" src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                        class="hand-pointer" id="bus-input" />
+                      <img title="[EC3]" src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                        class="hand-pointer" id="bus-input" />
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                      <img title="[EC4]" src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                        class="hand-pointer" id="bus-input" />
+                    </div>
+                    <div class="d-flex justify-content-between seats-container">
+                      <div class="d-flex flex-column align-items-center seat-left-row">
+                        <div>
+                          <img title="[A1]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[A2]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[B1]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[B2]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[C1]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[C2]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[D1]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[D2]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[E1]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[E2]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[F1]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[F2]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[G1]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[G2]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[H1]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[H2]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[I1]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[I2]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                      </div>
+                      <div class="d-flex flex-column align-items-center seat-right-row">
+                        <div>
+                          <img title="[A3]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[A4]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[B3]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[B4]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[C3]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[C4]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[D3]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[D4]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[E3]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[E4]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[F3]" id="bus-input" title="EC1"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[F4]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[G3]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[G4]" src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[H3]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[H4]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                        <div>
+                          <img title="[I3]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                          <img title="[I4]" id="bus-input"
+                            src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-between seats-container seat-last-row">
+                      <div class="d-flex flex-column align-items-center seat-left-row">
+                        <div>
+                          <img title="[J1]" src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" id="bus-input" />
+                          <img title="[J2]" src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" id="bus-input" />
+                        </div>
+                      </div>
+                      <div>
+                        <img title="[J3]" src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                          class="hand-pointer" id="bus-input" />
+                      </div>
+                      <div class="d-flex flex-column align-items-center seat-right-row">
+                        <div>
+                          <img title="[J4]" src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" id="bus-input" />
+                          <img title="[J5]" src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png"
+                            class="hand-pointer" id="bus-input" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-7 col-lg-12">
+                <div class="row seat-catalogue-container">
+                  <div class="col-4 text-center">
+                    <img class="available-seats"
+                      src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png" />
+                    <small>Available Seats</small>
+                  </div>
+                  <div class="col-4 text-center">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png" />
+                    <small>Booked Seats</small>
+                  </div>
+                  <div class="col-4 text-center">
+                    <img class="selected-seats"
+                      src="https://img.icons8.com/material-outlined/24/000000/sleeper-chair.png" />
+                    <small>Selected Seats</small>
+                  </div>
+
+                </div>
+
+                <br>
+
+                <div class="booked-seat-info">
+                  <div class="booked-seat-info-header row">
+                    <div class="col-4 text-center">Seats</div>
+                    <div class="col-4 text-center">Fare</div>
+                    <div class="col-4 text-center">Class</div>
+                  </div>
+                </div>
+                <div class="booked-seat-info-total">
+                  <p class="font-green">Total: <span id="total-cost">0</span> </p>
+                </div>
+
+                <br>
+
+                <div class="boarding-point-container">
+                  <small><b>Choose boarding point*</b></small><br>
+                  <select>
+                    <option value=””>--Boarding Points-</option>
+                    <option value=””>Gulistan Bus Point 3(3.40 PM)</option>
+                    <option value=””>Gulistan Bus Point 2(3.40 PM)</option>
+                    <option value=””>Gulistan Bus Point 1(3.40 PM)</option>
+                  </select>
+                </div>
+
+                <br>
+
+                <div class="d-flex justify-content-between">
+                  <button class="btn-sm btn-success">Continue</button>
+                  <a href="">close</a>
+                </div>
+
+                <br>
+
+                <div class="diclaimer-container d-flex">
+                  <div class="disclaimer-logo-container d-flex justify-content-center align-items-center">
+                    <img src="./resources/info.svg" alt="">
+                  </div>
+                  <div class="d-flex align-items-center disclaimer-text">Due to traffic condition, the trip may get
+                    canceled.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="operators-routes-container">
+      <h3>Available Bus Operators</h3>
+      <hr />
+
+      <div class="row">
+        <div style="line-height: 20px" class="col-3">
+          <small>Abdullah Paribahan</small><br />
+          <small>Alhamra Paribahan</small><br />
+          <small>Dhaka Line</small><br />
+          <small>Elish Paribahan</small><br />
+          <small>Hanif Enterprise</small><br />
+          <small>M M Paribahan</small><br />
+          <small>Ranga Provat Paribahan Ltd</small><br />
+          <small>S.B Super Deluxe</small><br />
+          <small>Saintmartin Paribahan Ltd</small><br />
+          <small>Sheba Transport</small><br />
+          <small>Shyamoli Paribahan</small><br />
+          <small>Star Line Special Ltd.</small><br />
+          <small>Year-71</small><br />
+        </div>
+
+        <div style="line-height: 20px" class="col-3">
+          <small>Abdullah Paribahan</small><br />
+          <small>Alhamra Paribahan</small><br />
+          <small>Dhaka Line</small><br />
+          <small>Elish Paribahan</small><br />
+          <small>Hanif Enterprise</small><br />
+          <small>M M Paribahan</small><br />
+          <small>Ranga Provat Paribahan Ltd</small><br />
+          <small>S.B Super Deluxe</small><br />
+          <small>Saintmartin Paribahan Ltd</small><br />
+          <small>Sheba Transport</small><br />
+          <small>Shyamoli Paribahan</small><br />
+          <small>Star Line Special Ltd.</small><br />
+          <small>Year-71</small><br />
+        </div>
+
+        <div class="col-3">
+          <small>Abdullah Paribahan</small><br />
+          <small>Alhamra Paribahan</small><br />
+          <small>Dhaka Line</small><br />
+          <small>Elish Paribahan</small><br />
+          <small>Hanif Enterprise</small><br />
+          <small>M M Paribahan</small><br />
+          <small>Ranga Provat Paribahan Ltd</small><br />
+          <small>S.B Super Deluxe</small><br />
+          <small>Saintmartin Paribahan Ltd</small><br />
+          <small>Sheba Transport</small><br />
+          <small>Shyamoli Paribahan</small><br />
+          <small>Star Line Special Ltd.</small><br />
+          <small>Year-71</small><br />
+        </div>
+
+        <div class="col-3">
+          <small>Abdullah Paribahan</small><br />
+          <small>Alhamra Paribahan</small><br />
+          <small>Dhaka Line</small><br />
+          <small>Elish Paribahan</small><br />
+          <small>Hanif Enterprise</small><br />
+          <small>M M Paribahan</small><br />
+          <small>Ranga Provat Paribahan Ltd</small><br />
+          <small>S.B Super Deluxe</small><br />
+          <small>Saintmartin Paribahan Ltd</small><br />
+          <small>Sheba Transport</small><br />
+          <small>Shyamoli Paribahan</small><br />
+          <small>Star Line Special Ltd.</small><br />
+          <small>Year-71</small><br />
+        </div>
+      </div>
+
+      <h3>Available Bus Routes</h3>
+      <hr />
+      <div class="row">
+        <div class="col-3">
+          <small>Dhaka to Dinajpur</small><br />
+          <small>Dhaka to Thakurgaon</small><br />
+          <small>Dhaka to Satkhira</small><br />
+          <small>Dhaka to Hili</small><br />
+          <small>Dhaka to Bandarban</small><br />
+          <small>Dhaka to Rangamati</small><br />
+          <small>Dhaka to Kushtia</small><br />
+        </div>
+
+        <div class="col-3">
+          <small>Dhaka to Panchagor</small><br />
+          <small>Dhaka to Cox's Bazar</small><br />
+          <small>Dhaka to Bogra</small><br />
+          <small>Dhaka to Chittagong</small><br />
+          <small>Dhaka to Teknaf</small><br />
+          <small>Dhaka to Kolkata</small><br />
+          <small>Dhaka to Gaibandha</small><br />
+        </div>
+
+        <div class="col-3">
+          <small>Dhaka to Nilphamari</small><br />
+          <small>Dhaka to Feni</small><br />
+          <small>Dhaka to Naogaon</small><br />
+          <small>Dhaka to Khulna</small><br />
+          <small>Dhaka to Khagrachari</small><br />
+          <small>Dhaka to Rajshahi</small><br />
+          <small>Dhaka to Jhenaidah</small><br />
+        </div>
+
+        <div class="col-3">
+          <small>Dhaka to Kurigram</small><br />
+          <small>Dhaka to Darshana</small><br />
+          <small>Dhaka to Chapai Nawabganj</small><br />
+          <small>Dhaka to Sylhet</small><br />
+          <small>Dhaka to Moulvibazar</small><br />
+          <small>Dhaka to Nazirhat</small><br />
+          <small>Dhaka to Brahmanbaria</small><br />
+        </div>
+
+        <div class="col-3">
+          <small>Dhaka to Rangpur</small><br />
+          <small>Dhaka to Joypurhat</small><br />
+          <small>Dhaka to Gopalganj</small><br />
+          <small>Dhaka to Barisal</small><br />
+          <small>Dhaka to Sreemangal</small><br />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="font-green footer-divider" />
+
+
+  <footer class="container footer-info">
+    <div class="row text-center">
+      <div class="col-sm-12 col-md-3">
+        <img class="main-logo" src="./resources/main-logo.svg" alt="" />
+        <p>
+          Shohoz, owned and operated by Shohoj Limited, is Bangladesh’s
+          largest online ticket destination, which is committed to making your
+          life convenient, easier and smarter.
+        </p>
+      </div>
+
+      <div class="col-sm-12 col-md-3">
+        <a class="hand-pointer remove-underline" href="#">About Us</a><br />
+        <a class="hand-pointer remove-underline" href="#">Contact Us</a><br />
+        <a class="hand-pointer remove-underline" href="#">Terms of Use</a><br />
+        <a class="hand-pointer remove-underline" href="#">Privacy Policy</a><br />
+      </div>
+
+      <div class="col-sm-12 col-md-3">
+        <h5><b><a>Services</b></h5>
+        <small><a>Shohoz Bus</a></small><br />
+        <small><a>Shahoz Launch</a></small><br />
+      </div>
+
+      <div class="col-sm-12 col-md-3 d-flex flex-column align-items-end">
+        <div class="social-mediums w-100">
+          <h5><b>Social</b></h5>
+          <div class="d-flex justify-content-center align-items-center gap-4">
+            <div><img src="./resources/fb.svg" alt="facebook" class="hand-pointer"></div>
+            <div><img src="./resources/ins.svg" alt="instagram" class="hand-pointer"></div>
+            <div><img src="./resources/in.svg" alt="linkedin" class="hand-pointer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+  <script src="script.js"></script>
+  <script src="owlCarousel.js"></script>
+</body>
+
+</html>
